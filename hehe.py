@@ -20,9 +20,9 @@ while Contador > 0:
     else:
         print(f"O número é menor que seu palpite.")
 
-    Contador -=1
+    Contador-=1
 
 if not Acertou:
-    print ("Que pena, você  errou. O número secreto era,: ", numerosecreto)
+    print ("Que pena, você  errou. O número secreto era: ", numerosecreto)
 else:
     print ("Você acertou o número secreto em", 7 - Contador + 1, "tentativas")
